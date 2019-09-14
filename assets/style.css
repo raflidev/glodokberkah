@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    background-color: blueviolet;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+}
+.navbar a{
+    float: right;
+    color: white;
+    font-size: 24px;
+    line-height: 45px;
+    margin-right: 10px;
+    padding: 0 10px 0;
+}
+.navbar a:hover{
+    background-color: rgb(105, 30, 175);
+}
+
+.container{
+    background-clip: #777777;
+    height: 1000px;
+    margin-top: 27px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width: 20%;
+    background-color: aqua;
+    height: 1000px;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.sidebar a{
+    display: block;
+    text-indent: 20px;
+}
+.sidebar .category{
+    margin: 15px 0 10px;
+}
+
+.main{
+    width: 80%;
+    background-color: greenyellow;
+    height: 1000px;
+    float: left;
+}
